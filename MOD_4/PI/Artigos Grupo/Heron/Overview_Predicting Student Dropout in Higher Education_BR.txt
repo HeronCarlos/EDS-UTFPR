@@ -1,0 +1,147 @@
+Prevendo o abandono do aluno no ensino superior
+Predicting Student Dropout in Higher Education
+
+-Heron Carlos Gonçalves 
+
+
+1. Contextualização: em que área do conhecimento o artigo se encaixa? Qual o contexto geral da utilização/aplicação dessa pesquisa? Qual é o problema?
+
+1.1 - Em que área do conhecimento o artigo se encaixa?
+	Este artigo tem como contexto a área de Educação Superior nos USA.
+
+1.2 - Qual o contexto geral da utilização/aplicação dessa pesquisa?	
+	Esta pesquisa/modelos desenvolvidos tem como aplicação estudar a evasão de alunos no nivel superior nos USA em escala. Nosso objetivo mais amplo é compreender as principais featurees determinantes, para identificar com precisão os alunos com probabilidade de desistencia e recomendar intervenções políticas para reduzir o aluno desistente.
+	
+1.3 - Qual é o problema?
+	O abandono escolar no nivel superior é uma grande preocupação na educação e comunidades de formulação de políticas.
+	As desistencias de alunos do primeiro ano é de particular importância, pois ds governos estaduais e federais dos Estados Unidos (EUA) gastaram mais de $ 9 bilhões de 2003-2008 na educação e 30% dos alunos do primeiro ano em tempo integral buscando bacharelado não voltam para um segundo ano.
+
+
+2. Trabalhos relacionados
+
+2.1 -  Soluções existentes: quais os artigos que já investigaram esse problema ?
+	Artigos \ Estudos de Casos - Analytics 
+
+		Thammasiri, Dech, Delen, Dursun, Meesad, Phayung, and
+		Kasap, Nihat. A critical assessment of imbalanced class
+		distribution problem: The case of predicting freshmen
+		student attrition. Expert Systems with Applications, 41
+		(2):321–330, 2014.
+
+		Kovaˇci´c, Zlatko J. Early prediction of student success:
+		mining students enrolment data. In Proceedings of
+		Informing Science & IT Education Conference (InSITE),
+		pp. 647–665. Citeseer, 2010.
+
+		Dekker, Gerben W, Pechenizkiy, Mykola, and Vleeshouwers,
+		Jan M. Predicting students drop out: A case
+		study. International Working Group on Educational
+		Data Mining, 2009.
+
+		Moseley, Laurence G and Mead, Donna M. Predicting who
+		will drop out of nursing courses: a machine learning
+		exercise. Nurse education today, 28(4):469–475, 2008.
+
+		Lin, JJ, Imbrie, PK, and Reid, Kenneth J. Student retention
+		modelling: An evaluation of different methods and their
+		impact on prediction results. Research in Engineering
+		Education Sysmposium, pp. 1–6, 2009.
+
+2.2 -  Solução mais próxima: qual é a melhor e/ou solução mais próxima ao problema apresentado ?
+	A solução abaixo é a que mais se aproxima do estudo do artigo porem com foco em uma populaço ( estudantes ) mais homogenea e um subconjunto de determinado campo de estudo.
+	Thammasiri, Dech, Delen, Dursun, Meesad, Phayung, and
+	Kasap, Nihat. A critical assessment of imbalanced class
+	distribution problem: The case of predicting freshmen
+	student attrition. Expert Systems with Applications, 41
+	(2):321–330, 2014.
+
+
+3. Gap: qual a principal/is limitações da(s) solução(ões) existente(s)? O que não foi investigado? Quais aspectos do problema ainda não estão claros? Por que as abordagens existentes podem ser falhas?
+
+3.1 - Qual a principal/is limitações da(s) solução(ões) existente(s)?
+	A ausencia de dados mais adequados de acordo com o mencionado no artigo ( pontos destacados em vermelho - highlight).
+	Estudos realizados com populações pequenas e homogeneas.
+	
+	
+3.2 - O que não foi investigado? 
+	Informações de micro-economia e macro-economia que estao relacionadas a vida dos alunos.
+	Ausencia de dados de Universidades e Faculdades comunitarias onde as taxas de desistencia são maiores.
+
+3.3 - Quais aspectos do problema ainda não estão claros? Por que as abordagens existentes podem ser falhas?
+	Pois parte destas abordagens não contemplam dados\informações de grande relevancia na modelagem tais como: situação economica no periodo, crises, dados de deslocamento dos alunos ( mudança de residencia, mudança de emprego, etc. ). 
+
+4. Hipótese ou questão de pesquisa: dado a limitação / problema listado anteriormente, o autor argumenta que há uma forma de fazer diferente que talvez resolva o problema, ou ainda atinja resultado melhor ou que investigue algum aspecto?
+	Sim, Os autores informam que os estudos são preliminares e que pretendem utilizar recursos para melhorar a analise. 
+	
+5. Objetivos: dada a hipótese, como o autor pretende provar que ela é verdadeira ou falsa?
+	Os Autores pretendem adotar tecnicas de engenharia de dados e a adoção de redes neurais ( pontos de melhorias destacados em azul - highlight ).
+
+
+
+6. Metodologia:
+
+6.1. - Qual o tipo de revisão realizada: narrativa, sistemática, integrativa, ou outro tipo?
+	A Revisão realizada no artigo se trata da Sistematica.
+
+6.2 -  Quais são as amostras, as variáveis, tipo de pesquisa e as métricas utilizadas?
+	Dados não identificados e psuedonimizados foram coletados do Banco de dados de registros da Universidade de Washington (UW) no verão de 2013. Os dados contêm os dados demográficos (raça, sexo, data de nascimento, status de residente e identificação como hispânica), informações de entrada pré-faculdade (Pontuações SAT e ACT, se disponíveis) e transcrição completa dos registros (aulas realizadas, horário em que foram realizadas, notas recebidas ) para todos os alunos no sistema da Universidade de Washington (UW) (consistindo em um campus principal em Seattle e dois campus satélites: Bothell e Tacoma). Nosso foco é na matricula de graduação fr alunos do campus principal que se matricularam pela primeira vez entre 1998 e 2006.
+	Para imputação de valores ausentes nas features SAT e ACT os autores aplicaram técnicas de media com maior frequencia.
+
+6.3 -  Como foi realizada a coleta e análise de dados?
+	A coleta dos dados foi realizada do Banco de dados de registros da Universidade de Washington (UW) no verão de 2013.
+	Foram utilizados 3 modelos de aprendizado de maquina com aprendizado supervisionado.
+	.Regressão Logistica
+	.RFC - Random Forest Classifier
+	,K-Nearest Neighbors 
+	O total de alunos selecionado foi de 69.116 alunos, sendo que desse total 5 registros foram excluidos por ausencia de data de nascimento, nesse conjunto a taxa geral de alunos graduados atingiu 76,5%, os autores realizaram uma balanceamento das classes de dados ( GRads = Graduados e NC = Não concluidos ) , com isso ele obteve um total de 32.538 alunos para realizar esta analise.
+	Foi aplicado  a divisão da amostra em Treinamento (70%) e Teste (30%) e foi aplicado nos dados de treinamento o metodo de Cross-Validation (k-fold = 10) para estimar os parametros dos modelos e acuracia. 
+	Os autores utilizaram para avaliar o desempenho dos modelos de classificação as metricas de ROC-AUC atingindo um intervalo de comparação entre os modelos de AUC ( 0,66 a 0,73).
+
+
+
+
+
+--Estudos de Casos - Analytics 
+
+Dekker, Gerben W, Pechenizkiy, Mykola, and Vleeshouwers,
+Jan M. Predicting students drop out: A case
+study. International Working Group on Educational
+Data Mining, 2009.
+
+Kovaˇci´c, Zlatko J. Early prediction of student success:
+mining students enrolment data. In Proceedings of
+Informing Science & IT Education Conference (InSITE),
+pp. 647–665. Citeseer, 2010.
+
+Moseley, Laurence G and Mead, Donna M. Predicting who
+will drop out of nursing courses: a machine learning
+exercise. Nurse education today, 28(4):469–475, 2008.
+
+Lin, JJ, Imbrie, PK, and Reid, Kenneth J. Student retention
+modelling: An evaluation of different methods and their
+impact on prediction results. Research in Engineering
+Education Sysmposium, pp. 1–6, 2009.
+
+
+
+-- Literaturas que tratam de abandono de nivel superior
+
+Tinto, Vincent. Dropout from higher education: A
+theoretical synthesis of recent research. Review of
+educational research, 45(1):89–125, 1975.
+
+Tinto, Vincent. Leaving college: Rethinking the causes and
+cures of student attrition. ERIC, 1987.
+
+Spady, William G. Dropouts from higher education: An
+interdisciplinary review and synthesis. Interchange, 1
+(1):64–85, 1970.
+
+Bean, John P. Dropouts and turnover: The synthesis and
+test of a causal model of student attrition. Research in
+higher education, 12(2):155–187, 1980
+
+
+Tinto, Vincent. Research and practice of student retention:
+what next? Journal of College Student Retention:
+Research, Theory & Practice, 8(1):1–19, 2006.
