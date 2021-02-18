@@ -5,21 +5,34 @@ Predicting Student Dropout in Higher Education
 
 
 1. Contextualização: em que área do conhecimento o artigo se encaixa? Qual o contexto geral da utilização/aplicação dessa pesquisa? Qual é o problema?
+COR: AMARELO 
 
 1.1 - Em que área do conhecimento o artigo se encaixa?
 	Este artigo tem como contexto a área de Educação Superior nos USA.
+COR: AMARELO 
+
 
 1.2 - Qual o contexto geral da utilização/aplicação dessa pesquisa?	
 	Esta pesquisa/modelos desenvolvidos tem como aplicação estudar a evasão de alunos no nivel superior nos USA em escala. Nosso objetivo mais amplo é compreender as principais featurees determinantes, para identificar com precisão os alunos com probabilidade de desistencia e recomendar intervenções políticas para reduzir o aluno desistente.
+COR: AMARELO 
+
+
 	
 1.3 - Qual é o problema?
 	O abandono escolar no nivel superior é uma grande preocupação na educação e comunidades de formulação de políticas.
 	As desistencias de alunos do primeiro ano é de particular importância, pois ds governos estaduais e federais dos Estados Unidos (EUA) gastaram mais de $ 9 bilhões de 2003-2008 na educação e 30% dos alunos do primeiro ano em tempo integral buscando bacharelado não voltam para um segundo ano.
+COR: VERMELHO 
+
+
 
 
 2. Trabalhos relacionados
+COR: 
+
 
 2.1 -  Soluções existentes: quais os artigos que já investigaram esse problema ?
+COR: VERDE CLARO
+
 	Artigos \ Estudos de Casos - Analytics 
 
 		Thammasiri, Dech, Delen, Dursun, Meesad, Phayung, and
@@ -27,6 +40,10 @@ Predicting Student Dropout in Higher Education
 		distribution problem: The case of predicting freshmen
 		student attrition. Expert Systems with Applications, 41
 		(2):321–330, 2014.
+		
+		Delen, Dursun. Predicting student attrition with data
+		mining methods. Journal of College Student Retention:
+		Research, Theory & Practice, 13(1):17–35, 2011.
 
 		Kovaˇci´c, Zlatko J. Early prediction of student success:
 		mining students enrolment data. In Proceedings of
@@ -48,44 +65,86 @@ Predicting Student Dropout in Higher Education
 		Education Sysmposium, pp. 1–6, 2009.
 
 2.2 -  Solução mais próxima: qual é a melhor e/ou solução mais próxima ao problema apresentado ?
-	A solução abaixo é a que mais se aproxima do estudo do artigo porem com foco em uma populaço ( estudantes ) mais homogenea e um subconjunto de determinado campo de estudo.
-	Thammasiri, Dech, Delen, Dursun, Meesad, Phayung, and
-	Kasap, Nihat. A critical assessment of imbalanced class
-	distribution problem: The case of predicting freshmen
-	student attrition. Expert Systems with Applications, 41
-	(2):321–330, 2014.
+COR: CINZA CLARO
+
+	As soluções abaixo são as que mais se aproximam do estudo do artigo porem com foco em uma populaço ( estudantes ) mais homogenea e um subconjunto de determinado campo de estudo diferemte do contexto aplicado neste artigo que trabalha com um conjunto de dados bem mais amplo e heterogeneo.
+
+		Thammasiri, Dech, Delen, Dursun, Meesad, Phayung, and
+		Kasap, Nihat. A critical assessment of imbalanced class
+		distribution problem: The case of predicting freshmen
+		student attrition. Expert Systems with Applications, 41
+		(2):321–330, 2014.
+		
+		Delen, Dursun. Predicting student attrition with data
+		mining methods. Journal of College Student Retention:
+		Research, Theory & Practice, 13(1):17–35, 2011.
 
 
 3. Gap: qual a principal/is limitações da(s) solução(ões) existente(s)? O que não foi investigado? Quais aspectos do problema ainda não estão claros? Por que as abordagens existentes podem ser falhas?
+COR: LARANJA 
 
 3.1 - Qual a principal/is limitações da(s) solução(ões) existente(s)?
-	A ausencia de dados mais adequados de acordo com o mencionado no artigo ( pontos destacados em vermelho - highlight).
+	A principal limitação das soluções apresentadas é que possuem um contexto de trabalho direcionado para um conjunto de dados reduzido, pequeno e muito homogeneo pois trabalham com subcojuntos de areas academicas.
+	
 	Estudos realizados com populações pequenas e homogeneas.
+COR: LARANJA 	
 	
 	
 3.2 - O que não foi investigado? 
+Nas soluções anteriores apresentadas não foram investigadas levando em consideração um conjunto de dados maior e mais heterogeneo.
+
 	Informações de micro-economia e macro-economia que estao relacionadas a vida dos alunos.
 	Ausencia de dados de Universidades e Faculdades comunitarias onde as taxas de desistencia são maiores.
+COR: LARANJA 
+
 
 3.3 - Quais aspectos do problema ainda não estão claros? Por que as abordagens existentes podem ser falhas?
+	Devido as soluções existentes trabalharem com subconjuntos pequenos e direcionados a areas academicas especificas podemos ter uma condição de Viés.
+	No artigo em questão não existem informações a respeito das caracteristicas ( features ) preditoras das soluções existentes, não sabemos ao certo se foram considerados features com analise economica, financeira, demograficas.
+	Podemos ter uma deficiencia na acuracia dos modelos preditivos devido a não considerarmos variaveis preditivas de grande relevancia tais como situação economica do País, da Cidade, do Aluno.
+
+
 	Pois parte destas abordagens não contemplam dados\informações de grande relevancia na modelagem tais como: situação economica no periodo, crises, dados de deslocamento dos alunos ( mudança de residencia, mudança de emprego, etc. ). 
 
+
+COR: LARANJA 
+
 4. Hipótese ou questão de pesquisa: dado a limitação / problema listado anteriormente, o autor argumenta que há uma forma de fazer diferente que talvez resolva o problema, ou ainda atinja resultado melhor ou que investigue algum aspecto?
-	Sim, Os autores informam que os estudos são preliminares e que pretendem utilizar recursos para melhorar a analise. 
+	Sim, Os autores informam que os estudos são preliminares e que pretendem utilizar recursos para melhorar a analise.
+    Eles partem da Hipótese do uso de uma massa de dados maior e mais heterogenea.
+
+4. - dado a limitação / problema listado anteriormente, o autor argumenta que há uma forma de fazer diferente que talvez resolva o problema, ou ainda atinja resultado melhor ou que investigue algum aspecto?
+	Sim, Os autores informam que os estudos são preliminares e que pretendem utilizar recursos para melhorar a analise.
+    Eles partem da Hipótese do uso de uma massa de dados maior e mais heterogenea.
 	
+COR : AZUL CLARO 
+
+
+Objetivos:
 5. Objetivos: dada a hipótese, como o autor pretende provar que ela é verdadeira ou falsa?
-	Os Autores pretendem adotar tecnicas de engenharia de dados e a adoção de redes neurais ( pontos de melhorias destacados em azul - highlight ).
+	Eles partem do uso de uma amostra de dados bem maior e mais heterogenea, os Autores pretendem também adotar tecnicas de engenharia de dados e a adoção de redes neurais em proximos estudos.
+
+
+5. dada a hipótese, como o autor pretende provar que ela é verdadeira ou falsa?
+	Eles partem do uso de uma amostra de dados bem maior e mais heterogenea, os Autores pretendem também adotar tecnicas de engenharia de dados e a adoção de redes neurais em proximos estudos.
+
+COR: ROXO 
 
 
 
-6. Metodologia:
+
+6. 
+
+Metodologia:
 
 6.1. - Qual o tipo de revisão realizada: narrativa, sistemática, integrativa, ou outro tipo?
-	A Revisão realizada no artigo se trata da Sistematica.
+	A Revisão realizada no artigo se trata da Narrativa pois não utiliza criterios explicitos e sistematicos para a busca e analise critica do artigo, não aplica estratégias de busca sofisticadas e exaustivas nos estudos anteriores e a seleção desses estudos e a interpretação das informações seguem a subjetividade dos autores do artigo em questão.
+COR : ROSA
 
 6.2 -  Quais são as amostras, as variáveis, tipo de pesquisa e as métricas utilizadas?
-	Dados não identificados e psuedonimizados foram coletados do Banco de dados de registros da Universidade de Washington (UW) no verão de 2013. Os dados contêm os dados demográficos (raça, sexo, data de nascimento, status de residente e identificação como hispânica), informações de entrada pré-faculdade (Pontuações SAT e ACT, se disponíveis) e transcrição completa dos registros (aulas realizadas, horário em que foram realizadas, notas recebidas ) para todos os alunos no sistema da Universidade de Washington (UW) (consistindo em um campus principal em Seattle e dois campus satélites: Bothell e Tacoma). Nosso foco é na matricula de graduação fr alunos do campus principal que se matricularam pela primeira vez entre 1998 e 2006.
-	Para imputação de valores ausentes nas features SAT e ACT os autores aplicaram técnicas de media com maior frequencia.
+	Dados não identificados e psuedonimizados foram coletados do Banco de dados de registros da Universidade de Washington (UW) no verão de 2013. Os dados contêm os dados demográficos (raça, sexo, data de nascimento, status de residente e identificação como hispânica), informações de entrada pré-faculdade (Pontuações SAT e ACT, se disponíveis) e transcrição completa dos registros (aulas realizadas, horário em que foram realizadas, notas recebidas ) para todos os alunos no sistema da Universidade de Washington (UW) (consistindo em um campus principal em Seattle e dois campus satélites: Bothell e Tacoma).
+	Para imputação de valores ausentes nas features SAT e ACT os autores aplicaram técnicas de media com maior frequencia. O Tipo de Pesquisa aplicado ao estudo foi de Classificação, sendo a variavel dependente (target) é a NC (non-completions).
+
 
 6.3 -  Como foi realizada a coleta e análise de dados?
 	A coleta dos dados foi realizada do Banco de dados de registros da Universidade de Washington (UW) no verão de 2013.
