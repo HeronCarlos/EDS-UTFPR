@@ -1,0 +1,146 @@
+Diabetes Disease Prediction Using Machine Learning on Big Data of Healthcare
+
+--- notes 
+
+-Heron Carlos Gonçalves 
+
+
+Contextualização:
+COR: AMARELO 
+
+1. Contextualização: em que área do conhecimento o artigo se encaixa? Qual o contexto geral da utilização/aplicação dessa pesquisa? Qual é o problema?
+
+
+1.1 - Em que área do conhecimento o artigo se encaixa?
+	Este artigo tem como contexto a área de Saúde, aplicando conceitos de ML, Big Data nas pesquisas de doenças.
+
+1.2 - Qual o contexto geral da utilização/aplicação dessa pesquisa?	
+	Este artigo e as pesquisas/modelos desenvolvidos tem como objetivo construir um modelo de classificação utilizando a ferramenta WEKA para prever Diabetes, empregando Naive Bayes, SVM, RFC e Arvore de Decisão - CART simples.
+	A pesquisa espera recomendar o melhor algoritmo baseado em resultado de desempenho eficiente para a previsão da doença do diabetes. Os resultados experimentais de cada algoritmo usado no conjunto de dados foram avaliados. Observa-se que a SVM executou melhor na previsão da doença com precisão máxima.
+
+COR: VERMELHO 	
+1.3 - Qual é o problema?
+	Os indices da OMS apontam um enorme crescimento do nr. de Pacientes Diabéticos em todo o mundo ano a ano, o artigo propoem o uso de algoritmos para aperfeiçoar e acelerar a previsão de diabetes auxillando no tratamento e redução de custos.
+
+
+4 algoritmos de aprendizado supervisionado 
+
+
+2. Trabalhos relacionados
+
+
+COR: VERDE CLARO
+
+2.1 -  Soluções existentes: quais os artigos que já investigaram esse problema ?
+
+	Artigos \ Estudos de Casos - Analytics 
+
+	[11] Niharika G. Maity, Dr. Sreerupa Das, ”Machine Learning for Improved
+	Diagnosis and Prognosis in Healthcare”, IEEE 2017
+	[12] Emrana Kabir Hashi, Md. Shahid Uz Zaman , Md. Rokibul Hasan, ”An
+	Expert Clinical Decision Support System to Predict Disease Using Classification Techniques”, International Conference on Electrical, Computer
+	and Communication Engineering (ECCE), February 16-18, 2017, IEEE
+	[17] Dr.Neeraj Bhargava, Sonia Dayma, Abishek Kumar, Pramod Singh, ”An
+	Approach for Classification using Simple CART Algorithm in Weka”,
+	2017 11 th International Conference on Intelligent Systems and Control
+	(ISCO)“ , IEEE 2017
+	[18] Dhomse Kanchan B., Mr. Mahale Kishor M, ”Study of Machine
+	Learning Algorithms for Special Disease Prediction using Principal
+	Component Analysis”, 2016 International Conference on Global Trends
+	in Signal Processing, Information Computing and Communication, IEEE
+	2016
+	[19] Munaza Ramzan, ”Comparing and Evaluating the Performance of
+	WEKA Classifiers on Critical Diseases” , 2016 1st India International
+	Conference on Information Processing (IICIP), IEEE 2016
+	[20] Amrita Naik, Lilavati Samant, ”Correlation review of classification algorithm using data mining tool: WEKA , Rapidminer , Tanagra ,Orange
+	and Knime”, International Conference on Computational Modeling and
+	Security (CMS 2016), Procedia Computer Science 85 ( 2016 ) 662 –
+	668
+	[21] Aiswarya Iyer, S. Jeyalatha and Ronak Sumbaly, ”Diagnosis Of Diabetes Using Classification Mining Techniques”, International Journal of
+	Data Mining & Knowledge Management Process (IJDKP) Vol.5, No.1,
+	January 2015
+
+
+
+COR: CINZA CLARO
+2.2 -  Solução mais próxima: qual é a melhor e/ou solução mais próxima ao problema apresentado ?
+
+	[21] Aiswarya Iyer, S. Jeyalatha and Ronak Sumbaly, ”Diagnosis Of Diabetes Using Classification Mining Techniques”, International Journal of
+	Data Mining & Knowledge Management Process (IJDKP) Vol.5, No.1,
+	January 2015
+
+
+Gap: 
+COR: LARANJA 
+
+3. Gap: qual a principal/is limitações da(s) solução(ões) existente(s)? O que não foi investigado? Quais aspectos do problema ainda não estão claros? Por que as abordagens existentes podem ser falhas?
+
+
+3.1 - Qual a principal/is limitações da(s) solução(ões) existente(s)?
+ 	As principais limitações das soluções existentes para prevenção de diabetes apresentadas, são os numeros de algoritmos utilizados em comparação com o metodo aplicado neste artigo, o metodo utilizado neste artigo utiliza 4 algoritmos de classificação ( Naive Vayes, SVM, RFC e Arvore de Decisão ) enquanto os demais utilizam 1 ou 2.
+	
+	
+3.2 - O que não foi investigado? 
+	Os artigos/modelos de referencia não mencionam no artigo em questão se utilizaram features ( caracteristicas ) que avaliam se existem casos de diabetes na familia, rotina de atividades fisicas, fumante ou não, etc...
+
+
+3.3 - Quais aspectos do problema ainda não estão claros? Por que as abordagens existentes podem ser falhas?
+	Não estão claros se features de relevancia na prevenção de diabetes foram consideradas nos estudos anteriores, tais como casos familiares, consumo de bebidas alcoolicas, fumo e uso de alimentos condimentados, má alimentação.
+
+
+
+
+
+Hipotese:
+COR : AZUL CLARO 
+
+4. Hipótese ou questão de pesquisa: dado a limitação / problema listado anteriormente, o autor argumenta que há uma forma de fazer diferente que talvez resolva o problema, ou ainda atinja resultado melhor ou que investigue algum aspecto?
+
+4. - dado a limitação / problema listado anteriormente, o autor argumenta que há uma forma de fazer diferente que talvez resolva o problema, ou ainda atinja resultado melhor ou que investigue algum aspecto?
+	Os autores utilizam um numero de algoritmos superior aos artigos/modelos utilizados como referencia possibilitando uma melhoria na acuracia dos resultados de predição de diabetes.
+
+
+
+Objetivos:
+COR: ROXO 
+
+5. Objetivos: dada a hipótese, como o autor pretende provar que ela é verdadeira ou falsa?
+
+
+5. dada a hipótese, como o autor pretende provar que ela é verdadeira ou falsa?
+	Os autores pretendem provar a hipotese do uso de um numero maior de algoritmos para a prevenção de diabetes com base nos resultados obtidos através dos modelos aplicados e resultados alcançados.
+
+
+
+
+
+
+6. Metodologia:
+	COR : ROSA
+	
+6.1. - Qual o tipo de revisão realizada: narrativa, sistemática, integrativa, ou outro tipo?
+	A Revisão realizada no artigo se trata da Narrativa pois não utiliza criterios explicitos e sistematicos para a busca e analise critica do artigo, não aplica estratégias de busca sofisticadas e exaustivas nos estudos anteriores e a seleção desses estudos e a interpretação das informações seguem a subjetividade dos autores do artigo em questão.
+	Ocorreu um quadro comparativo dos estudos anteriores porem sem apronfundamento nem menção de features comparativas entre os estudos.
+	
+
+6.2 -  Quais são as amostras, as variáveis, tipo de pesquisa e as métricas utilizadas?
+	Aqui está a descrição do conjunto de dados que foi usado comouma entrada para classificadores implementados usando
+	4 algoritmos. O nome do conjunto de dados que foi considerado é Pima Banco de dados de diabetes dos índios coletado no	National Instituto de Diabetes e Doenças Digestivas e Renais. O número total de instâncias é 768 e o tamanho é 37
+	KB. O numero de atributos são 9 incluindo a classe alvo atributo. o numero de amostras para teste positivo	são 268 e o numero para teste negativo são 500. O pré-processamento de dados é realizado automaticamente pela ferramenta WEKA. A seguinte tabela TABELA II descreve os 9 atributos do conjunto de dados de diabetes.
+
+
+6.3 -  Como foi realizada a coleta e análise de dados?
+	O Pré-processamento do conjunto de dados de entrada para diabetes foi realizado na ferramenta WEKA, foi realizado a divisão percentual de 70% para dividir conjunto de dados como conjunto de treinamento e conjunto de teste.
+	Selecionados os algoritmos de aprendizado de máquina, ou seja Naive Bayes, SVM, RFC e Arvore de Decisão-CART.
+	Construido o modelo do classificador para os mencionados algoritmos de aprendizado de máquina com base
+	no conjunto de treinamento.
+	Realizado os Testes dos modelos de classificação para o algoritmo de aprendizado de máquina baseado em conjunto de teste.
+	Realizado a avaliação de comparação dos resultados de desempenho obtidos para cada classificador.
+	Depois de analisar com base em várias medidas conclui o algoritmo de melhor desempenho.
+	O modelo do classificador proposto foi construído usando	WEKA ferramenta e com base na execução bem-sucedida
+	de cada etapa, podemos avaliar os resultados experimentais.
+	De acordo com a figura 9 que apresentam as medidas de classificação de todos os 4 classificadores e os dados apresentados na Tabela IV,  a precisão do SVM é a mais alta, que é 0,7913.
+
+
+
+--Estudos de Casos - Analytics 
