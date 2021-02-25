@@ -156,7 +156,15 @@ COR : ROSA
 	Foi aplicado  a divisão da amostra em Treinamento (70%) e Teste (30%) e foi aplicado nos dados de treinamento o metodo de Cross-Validation (k-fold = 10) para estimar os parametros dos modelos e acuracia. 
 	Os autores utilizaram para avaliar o desempenho dos modelos de classificação as metricas de ROC-AUC atingindo um intervalo de comparação entre os modelos de AUC ( 0,66 a 0,73).
 
+---------------------------------------------------------------------------------------------------------------------
 
+Note - Overview
+
+O Artigo foi desenvolvido com a pesquisa de alunos que abandonam o nivel superior nos USA mais especificamente alunos que ingressaram no nivel superior e não retornaram para o 2º ano, não dando continuidade.
+A pesquisa foi realizada com dados provenientes do Banco de Dados da Universidade de Washington (UW) e foram aplicados 3 modelos de aprendizado de maquina com aprendizado supervisionado: Regressão Logistica, RFC - Random Forest Classifier e K-Nearest Neighbors.
+O total de alunos selecionado foi de 69.116 alunos.
+Os autores utilizaram para avaliar o desempenho dos modelos de classificação as metricas de ROC-AUC atingindo um intervalo de comparação entre os modelos de AUC ( 0,66 a 0,73), sendo que o modelo de Regressão Logistica foi o que apresentou melhores metricas, uma acuracia de 66,59% e uma AUC de 0,729.
+Os autores indicam que não foram considerados qualquer informação financeira dos estudantes, sendo estas de grande relevancia no abandono do nivel superior.
 
 
 
