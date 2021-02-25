@@ -143,4 +143,15 @@ COR: ROXO
 
 
 
+
+---------------------------------------------------------------------------------------------------------------------
+
+Note - Overview
+
+O Artigo foi desenvolvido com a pesquisa de predição de diabetes, o nome do conjunto de dados que foi considerado é Pima Banco de dados de diabetes dos índios coletado no National Instituto de Diabetes e Doenças Digestivas e Renais. O número total de instâncias é 768. Foram selecionados para o teste 4 algoritmos de aprendizado de máquina, Classificadores: Naive Bayes, SVM, RFC e Arvore de Decisão-CART.
+Foram realizadas analises dos resultados obtidos através de Matriz de Confusão, Precisão, Recall e F-Measurem com base nessas medidas e nos resultados obtidos foi verificado que o algoritmo SVM apresentou os melhores resultados para predizer uma doença de diabetes, tendo uma precisão de 78,4%, um Recall de 79,1.
+Não existem informações a respeito do uso de caracteristicas relacionadas a pratica de exercicios fisicos, ao uso de fumo e bebidas alcoolicas por parte dos avaliados.
+
+
+
 --Estudos de Casos - Analytics 
